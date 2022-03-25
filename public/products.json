@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "Beef Bone (Ox)",
+      "img": "https://img.freepik.com/free-photo/pieces-raw-fresh-meat-isolated-black-stone-board-mirrored-side-view_346278-817.jpg?t=st=1648229173~exp=1648229773~hmac=965db5d7ac42e3460a1c4753ecbd696c7f5d2b27c8a9ce4c4def22392aad4c90&w=740",
+      "price": 700,
+      "weight": "1kg"
+    },
+    {
+      "id": 2,
+      "name": "Chicken (Pakisthani)",
+      "img": "https://img.freepik.com/free-photo/raw-chicken-meat_1203-6759.jpg?t=st=1648229346~exp=1648229946~hmac=a993355627fea3c600e58741231b39de789ec7ab13cb32bfb5817bf977adba61&w=740",
+      "price": 350,
+      "weight": "1kg"
+    },
+    {
+      "id": 3,
+      "name": "Golda Chingri",
+      "img": "https://img.freepik.com/free-photo/fresh-shrimp-prawn_1339-2625.jpg?t=st=1648229518~exp=1648230118~hmac=035f082e6dec95bc57b1f1de441fedd89a427caf4d639b8625c771453267322c&w=740",
+      "price": 850,
+      "weight": "500gm"
+    },
+    {
+      "id": 4,
+      "name": "Rui Fish (1kg+-)",
+      "img": "https://img.freepik.com/free-vector/hand-drawn-orange-carp_53876-26886.jpg?t=st=1648226463~exp=1648227063~hmac=827f6b12b3358469dff9477c218ea6b555b057e84be3edc5a1a2d3e1c2b29a59&w=740",
+      "price": 650,
+      "weight": "1kg"
+    },
+    {
+      "id": 5,
+      "name": "Butter",
+      "img": "https://img.freepik.com/free-vector/realistic-jar-peanut-butter-composition-with-branded-can-packaging-ripe-arachis-nuts-with-shadows_1284-29378.jpg?t=st=1648229823~exp=1648230423~hmac=71e82fbb9b7264980f6d8dc4ff9fc4879f77390c7d2104d27537cd4e2a9606aa&w=740",
+      "price": 950,
+      "weight": "500gm"
+    },
+    {
+      "id": 6,
+      "name": "Masoor Dal (Deshi)",
+      "img": "https://img.freepik.com/free-photo/pile-red-lentils-marble-surface-with-wooden-spoon_114579-62822.jpg?t=st=1648229942~exp=1648230542~hmac=00950826f58a214131e89c946850b3ca74ebfb129ebf4abf70fc4e12480438ed&w=740",
+      "price": 140,
+      "weight": "1kg"
+    },
+    {
+      "id": 7,
+      "name": "Homemade Ghee",
+      "img": "https://img.freepik.com/free-photo/top-view-delicious-cream-soup-yellow-colored-soup-white-desk-soup-sauce-meal-cream-dinner-dish_140725-96355.jpg?t=st=1648230027~exp=1648230627~hmac=a4c453cfabeaa32af13df69f363667f7d4b2db13d15daba723561ac9a2d5bdca&w=740",
+      "price": 700,
+      "weight": "500gm"
+    },
+    {
+      "id": 8,
+      "name": "Miniket Chall",
+      "img": "https://img.freepik.com/free-photo/milled-rice-bowl-wooden-spoon-black-cement-floor_1150-20054.jpg?t=st=1648230117~exp=1648230717~hmac=394d6a3c95d0b111476aa2eada5e02d6441bf7a2190aac9ee15a78c523939cc5&w=740",
+      "price": 1800,
+      "weight": "25kg"
+    },
+    {
+      "id": 9,
+      "name": "ACI Salt",
+      "img": "https://img.freepik.com/free-photo/spoon-heap-salt-table_144627-11035.jpg?w=740&t=st=1648230190~exp=1648230790~hmac=f8db6ebc0443951c84a843788a3793051b69dd5e5c7e6d040463575dd590fc0f",
+      "price": 60,
+      "weight": "1kg"
+    },
+    {
+      "id": 10,
+      "name": "Tometo (paka)",
+      "img": "https://img.freepik.com/free-photo/tomatoes_144627-15411.jpg?t=st=1648230282~exp=1648230882~hmac=e538413dbeed1c512aa4411cc889d15b4b7ebb79a8936a6d96d748e8c51ac8bd&w=740",
+      "price": 120,
+      "weight": "1kg"
+    },
+    {
+      "id": 11,
+      "name": "Teer Atta",
+      "img": "https://miro.medium.com/max/1400/1*E1XbXpyexi8eCyH22vUPdw.jpeg",
+      "price": 45,
+      "weight": "1kg"
+    },
+    {
+      "id": 12,
+      "name": "Cocacola",
+      "img": "https://images.unsplash.com/photo-1561758033-48d52648ae8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "price": 20,
+      "weight": "250ml"
+    }
+  ]

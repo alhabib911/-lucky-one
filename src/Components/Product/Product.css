@@ -1,0 +1,40 @@
+.product{
+    width: 300px;
+    height: auto;
+    border: 3px solid #eedcae;
+    border-radius: 5px;
+    padding: 10px;
+}
+.product img{
+    width: 300px;
+    height: 265px;
+}
+.product-name{
+    text-align: center;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.product-weight{
+    font-family: lato;
+    text-align: center;
+    margin: 0px;
+}
+.product-price{
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: none;
+    color: #FE8280;
+    font-family: lato;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #FE8280;
+    color: #fafafa;
+}
