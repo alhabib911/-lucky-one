@@ -1,0 +1,27 @@
+.ques-one{
+    width: 85%;
+    margin: auto;
+}
+.ques-one h4{
+    color: green;
+    font-family: lato;
+}
+.ques-one p{
+    text-align: justify;
+    font-family: lato;
+}
+.ques-two{
+    width: 85%;
+    margin: auto;
+}
+.ques-two h4{
+    color: green;
+    font-family: lato;
+}
+.ques-two p{
+    text-align: justify;
+    font-family: lato;
+}
+.ques-two p span{
+    font-weight: 600;
+}

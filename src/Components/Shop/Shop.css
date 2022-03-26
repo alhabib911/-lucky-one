@@ -33,6 +33,20 @@
     background-color: #FE8280;
     color: #fafafa;
 }
+.clear-btn{
+    width: 80%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: none;
+    color: #FE8280;
+    font-family: lato;
+    font-weight: 600;
+    font-size: 16px;
+}
+.clear-btn:hover{
+    background-color: #FE8280;
+    color: #fafafa;
+}
 
 
 @media screen and (max-width: 767px) {
@@ -50,7 +64,7 @@
     background-color: #ffffff;
     font-size: 14px;
     }
-    .rendom-btn{
+    .rendom-btn .clear-btn{
         width: 100%;
         background-color: #fafafa;
         border-radius: 5px;
@@ -60,7 +74,7 @@
         font-weight: 600;
         font-size: 16px;
     }
-    .rendom-btn:hover{
+    .rendom-btn .clear-btn:hover{
         background-color: #FE8280;
         color: #fafafa;
     }

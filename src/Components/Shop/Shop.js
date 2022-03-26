@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import './Shop.css'
+import { IoIosPaperPlane } from 'react-icons/io';
 
 const Shop = () => {
     const [products, setProducts] = useState([])
@@ -29,7 +30,7 @@ const Shop = () => {
                 }
             </div>
             <div className="order-summery">
-                <h3>Express Delivery</h3>
+                <h3><IoIosPaperPlane></IoIosPaperPlane>Express Delivery  </h3>
                 
                 <div className='product-list'>
                     {
@@ -40,7 +41,10 @@ const Shop = () => {
                 </div>
                     <button className='rendom-btn'>
                         <p>Chose 1 for me</p>           
-                    </button>    
+                    </button>  
+                    <button className='clear-btn'> 
+                        <p>Clear</p>
+                    </button>  
                 
             </div>
         </div>
