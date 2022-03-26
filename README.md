@@ -1,6 +1,6 @@
 # Welcome to our new e-commerce website
 
-This Project Live site link [Dal Dim Grocery Shop]().
+This Project Live site link [Dal Dim Grocery Shop](https://dal-dim-groceryshop.netlify.app/).
 
 ## Project Source code 
 

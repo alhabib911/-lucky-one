@@ -19,7 +19,7 @@
 .product-list{
     color: black;
 }
-.rendom-btn{
+.random-btn{
     width: 80%;
     background-color: #fafafa;
     border-radius: 5px;
@@ -29,7 +29,7 @@
     font-weight: 600;
     font-size: 16px;
 }
-.rendom-btn:hover{
+.random-btn:hover{
     background-color: #FE8280;
     color: #fafafa;
 }
@@ -64,7 +64,7 @@
     background-color: #ffffff;
     font-size: 14px;
     }
-    .rendom-btn .clear-btn{
+    .random-btn .clear-btn{
         width: 100%;
         background-color: #fafafa;
         border-radius: 5px;
@@ -74,7 +74,7 @@
         font-weight: 600;
         font-size: 16px;
     }
-    .rendom-btn .clear-btn:hover{
+    .random-btn .clear-btn:hover{
         background-color: #FE8280;
         color: #fafafa;
     }

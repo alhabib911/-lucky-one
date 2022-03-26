@@ -6,6 +6,9 @@ import { IoIosPaperPlane } from 'react-icons/io';
 const Shop = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] =useState ([])
+    const [item, setItem] =useState([])
+    const [filter, setFilterItem] = useState ([])
+
     useEffect( () =>{
         fetch('products.json')
         .then(res=> res.json())
@@ -18,13 +21,35 @@ const Shop = () => {
         // console.log(newCart);
         setCart(newCart)
     }
+    useEffect(()=>{
+        const item =cart
+        if (item.length === 4)
+            alert('4 item selected')
+        else{
+            setItem(item)
+        }
+    },[cart])
 
+    const filterForMe = () => {
+        if (item.length !==0) {
+            const filter = item[(Math.floor(Math.random()*item.length)) | 0]
+            setFilterItem(filter)
+            alert(filter)
+            // console.log(filter);
+        }
+    }
+    
+
+    const clearButton = () => {
+        setCart([])
+    }
+    // console.log(products)
     return (
         <div className='shop-container'>
             <div className="products-container">
                 {
-                    products.map(products=><Product key={products.id}
-                        product={products}
+                    products.map(product=><Product key={product.id}
+                        product={product}
                         handleAddtoCart={handleAddtoCart}
                         ></Product>)
                 }
@@ -39,10 +64,12 @@ const Shop = () => {
                         )
                     }
                 </div>
-                    <button className='rendom-btn'>
+                    <button onClick={filterForMe}
+                    className='random-btn'>
                         <p>Chose 1 for me</p>           
                     </button>  
-                    <button className='clear-btn'> 
+                    <button onClick={clearButton}
+                     className='clear-btn'> 
                         <p>Clear</p>
                     </button>  
                 
